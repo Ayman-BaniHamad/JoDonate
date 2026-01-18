@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+## Implemented Features
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### F1 – User Authentication
+Users can register, log in, and manage their accounts using Firebase Authentication, ensuring secure access to the application.
 
-## Get started
+### F2 – Item Listing
+Donors can add items with images, descriptions, categories, and contact information, which are stored and managed through Firebase Firestore.
 
-1. Install dependencies
+### F3 – Browse Items
+Users can browse available items and filter them by category to easily find suitable donations.
 
-   ```bash
-   npm install
-   ```
+### F4 – Request Item
+Beneficiaries can request a specific item from a donor. Each request is stored and linked to both the item and the involved users.
 
-2. Start the app
+### F5 – Accept / Reject Requests
+Donors can accept or reject incoming requests. Actions trigger real-time updates and change the request and item status accordingly.
 
-   ```bash
-   npx expo start
-   ```
+### F6 – Item Status Tracking
+Each item follows a clear lifecycle: Available → Requested → Accepted → Donated, ensuring transparency for all users.
 
-In the output, you'll find options to open the app in a
+### F7 – Notifications
+Users receive in-app notifications when important actions occur, such as receiving a request or a status update.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### F8 – User Profile Management
+Each user has a profile page displaying personal information and basic activity statistics.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
