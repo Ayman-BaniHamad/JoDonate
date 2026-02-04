@@ -367,3 +367,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
+/*
+The fucntion of this file is to display detailed information about a specific item, 
+including its image, title, description, category, status, and contact number. 
+It also allows users to request the item if it is available, 
+handling user authentication and preventing users from requesting their own items or items that are not available. 
+*/
